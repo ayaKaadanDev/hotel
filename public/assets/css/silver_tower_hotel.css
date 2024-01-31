@@ -1,0 +1,113 @@
+:root{
+    --silver-color: #919394;
+    --blue-color: rgb(66, 66, 255);
+}
+.caption{
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    color: var(--blue-color);
+}
+/* start navbar */
+.navbar .navbar-nav .nav-link{
+    color: white;
+}
+.navbar .navbar-brand{
+    color: var(--silver-color);
+    font-weight: bold;
+}
+.navbar .nav-item .active{
+    background-color: var(--silver-color);
+}
+.navbar .nav-item .active:hover{
+    color: white;
+}
+.navbar .nav-item{
+    padding: 0%;
+}
+.navbar .nav-link:hover{
+    color: var(--silver-color);
+}
+/* end navbar */
+
+/* start main photo */
+.main_image img{
+    width: 1536px;
+    height: 610px;
+}
+.main_image h1{
+    margin-bottom: 200px;
+    background-color: rgb(41, 41, 41);
+}
+.main_image h1 span{
+    color: var(--silver-color);
+    font-weight: bold;
+
+}
+/* end main photo */
+
+/* start about us */
+.about_us{
+    padding: 10px;
+    background-color: rgb(245, 252, 255);
+}
+.about_us h3{
+    padding-top: 50px;
+}
+/* end about us */
+
+/* start photo */
+.photo{
+    background-color: black;
+}
+.photo img{
+    height: 500px;
+    width: 500px;
+}
+/* end photo */
+
+/* start our rooms */
+.our_rooms{
+    padding: 10px;
+    background-color: rgb(208, 219, 223);
+}
+.our_rooms h2{
+    text-align: center;
+    padding: 5px;
+}
+/* end our rooms */
+
+/* start contact_us */
+.contact_us{
+    padding-top: 70px;
+    color: white;
+    background-color: #222;
+}
+.contact_us label{
+    padding: 10px;
+}
+.contact_us h3{
+    color: var(--blue-color);
+}
+.contact_us .item{
+    padding: 20px;
+}
+
+.contact_us .end{
+    background-color: #00000075;
+    color: white;
+    margin-top: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.contact_us .end span{
+    font-weight: bold;
+}
+/* end contact_us */
+
+/* start table (show all user) */
+.tbodyDiv{
+    max-width: clamp(60em,165vh,2500px);
+    overflow: auto;
+}
+/* end table (show all user) */
